@@ -40,17 +40,6 @@ ul{
 li{  
     padding: 5px 0;
 }
-.personales-lista{
-    font-style: italic;
-    list-style: inside;
-}
-.contenedor-datos{
-    margin: 20px;
-    display: flex;
-}
-.contenedor-datos div{
-    margin-right: 10px;
-}
 footer{
     color: white;
     background-color: #005677;
@@ -63,6 +52,18 @@ footer ul li{
     padding: 20px;
     font-size: 25px;
 }
+.personales-lista{
+    font-style: italic;
+    list-style: inside;
+}
+.contenedor-datos{
+    margin: 20px;
+    display: flex;
+}
+.contenedor-datos div{
+    margin-right: 10px;
+}
+
 
 
 
