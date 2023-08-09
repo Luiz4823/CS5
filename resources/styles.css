@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body > h2:nth-of-type(1){
+    margin-top: 150px;
+}   
 header{
     background-color: #e6e6e6;
     text-align: center;
@@ -14,7 +22,7 @@ h1{
     background-color: #c4c4c4;
     color: #005677;
     padding: 5px;
-    margin-bottom: 150px;
+    
     letter-spacing: 5px;
 }
 h2{
@@ -22,6 +30,7 @@ h2{
     color: #005677;
     padding: 5px;
     letter-spacing: 5px;
+    display: flex;
 }
 span{
     font-weight: bold;
@@ -29,24 +38,35 @@ span{
 p{
     line-height: 0%;
 }
-
-li{
-    margin-left: 20px;
+ul{
+    list-style: none;
+}
+li{  
     padding: 5px 0;
 }
-li span{
+.personales-lista{
     font-style: italic;
+    list-style: inside;
 }
 .contenedor-datos{
     margin: 20px;
     display: flex;
 }
 .contenedor-datos div{
-    margin-right: 25px;
+    margin-right: 10px;
+}
+footer{
+    color: white;
+    background-color: #005677;
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+}
+footer ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
 }
 
-.contenedor-experiencia ul{
-    list-style: none;
-}
 
 
