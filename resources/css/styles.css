@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Raleway&family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    color: white;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+nav{
+    background: linear-gradient(180deg,#111 20%,rgba(20,44,105,0) 60%),#1a1a1a!important;
+}
+a{
+    text-decoration: none;
+}
+body > h2:nth-of-type(1){
+    margin-top: 150px;
+}   
+header{
+    background: linear-gradient(360deg,#111 20%,rgba(20,44,105,0) 60%),#1a1a1a!important;
+    text-align: center;
+}
+img{
+    height: 180px;
+    margin: 20px;
+}
+h1{
+    background: linear-gradient(271deg, #26c6da 30%,#3f51b5 50%,#ab47bc 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    letter-spacing: 5px;
+    font-family: 'Merriweather';
+}
+h2{
+    background: linear-gradient(271deg, #26c6da 30%,#3f51b5 50%,#ab47bc 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 2em;
+}
+span{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+li{  
+    padding: 5px 0;
+}
+footer{
+    color: white;
+    background: linear-gradient(360deg,#111 20%,rgba(20,44,105,0) 60%),#1a1a1a!important;
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+}
+footer ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+}
+.personales-lista{
+    font-style: italic;
+    list-style: inside;
+}
+.contenedor-datos{
+    margin: 20px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.contenedor-datos div{
+    margin-right: 10px;
+}
+
+
+
+

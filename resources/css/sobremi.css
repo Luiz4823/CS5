@@ -1,0 +1,19 @@
+main{
+    padding: 0 25%;
+    margin-bottom: 100px;
+}
+.contenedor-principal{
+    margin-top: 250px;
+    width: 100%;
+    text-align: justify;
+ 
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    width: 400px;
+    padding: auto;
+    margin: 40px auto;
+}
